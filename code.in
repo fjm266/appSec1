@@ -1,0 +1,26 @@
+print "STARTING FIRST TEST"
+
+x = 1
+
+while x<=128:
+      print x
+      x = 2*x
+
+print "STARTING SECOND TEST"
+
+first = 0
+second = 1
+count = 1
+
+print first
+
+while count<10:
+      print second
+      tmp = second + first
+      first = second
+      second = tmp
+      count += 1
+
+print "STARTING INPUT TEST"
+
+print data
