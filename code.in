@@ -24,3 +24,15 @@ while count<10:
 print "STARTING INPUT TEST"
 
 print data
+
+print "STARTING LIST TEST"
+
+list = [0]
+count = 0
+
+while count<10:
+    list.append(list[-1]+1)
+    count +=1
+
+print list
+
