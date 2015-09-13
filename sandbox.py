@@ -3,7 +3,7 @@ import sys
 if len(sys.argv)>2:
     code = open(sys.argv[1],'rb').read()
     data = open(sys.argv[2], 'rb').read()
-elif len(sys.argv)=2:
+elif len(sys.argv)==2:
     code = open(sys.argv[1],'rb').read()
     data = open('data.in', 'rb').read()
 elif len(sys.argv)<2:
