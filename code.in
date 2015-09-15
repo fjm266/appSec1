@@ -1,3 +1,10 @@
+print "ATTEMPTING IMPORT"
+
+try:
+	import os
+except:
+	print "IMPORTING RESTRICTED"
+
 print "STARTING FIRST TEST"
 
 x = 1
@@ -20,6 +27,13 @@ while count<10:
       first = second
       second = tmp
       count += 1
+
+print "ATTEMPTING TO WRITE FILE"
+
+try:
+	open('data.in', 'wb')
+except:
+	print "FILE ACCESS RESTRICTED"
 
 print "STARTING INPUT TEST"
 
