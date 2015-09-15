@@ -4,4 +4,6 @@ Super simple "sandbox".  The sandbox will run any code in "code.in" and will rea
 
 python sandbox.py <code> <data>
 
+Leave those options empty to run the test code.
+
 The sandbox is just python with its namespace cleared.  Most of the pre-defined data types still work but import, open and most other built in functions are gone.  
